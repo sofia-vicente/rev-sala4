@@ -7,16 +7,46 @@ nav{
     display: flex;
     justify-content: center;
     gap: 20px;
+    box-shadow: 0px 3px 12px #00004313;
+    padding: 10px;
 }
 
 .nav-item{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    color: #000000;
+    gap: 8px;
+    opacity: 0.5;
+    transition: all 200ms ease-in-out;
+    
+}
+.nav-item:hover{
+    opacity: 1;
 }
 
 .icons-nav{
-    width: 40px;
+    width: 30px;
     height: auto;
 
+}
+
+.nav-item p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s1{
+    background-image: url('../assets/images/sla.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px 3px 12px #00000079;
+}
+
+.s2{
+    height: 100vh;
 }
