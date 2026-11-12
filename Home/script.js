@@ -8,4 +8,12 @@ function fechar(){
     document.getElementById('menu-mobile').style.display = 'none'
 
 }
-
+ function irParaContato(){
+    window.location.href = "../contact"
+ }
+function praBaixo(){
+    window.scrollTo({
+        top:document.body.scrollHeight,
+        behavior: "smooth"
+    })
+}
